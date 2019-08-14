@@ -1,6 +1,11 @@
-function getIdade(dataNasc) {
+//Converter idade de input em **/**/****
+//Pseudo Codigo
 
-    var nascimento = dataNasc;
+
+function getIdade(dataNascimento) {
+
+    var nascimento = dataNascimento;
+    
     nascimento = nascimento.funçãoRemoveCaracteres();
 
     hoje = pegarDatadeHoje.funçãoRemoveCaracteres();
@@ -28,7 +33,13 @@ function getIdade(dataNasc) {
 var idade = getIdade()
 
 
-//JAVASCRIPT
+
+
+
+
+//codigo funcional em javascript
+
+
 function getIdade() {
 
     var nascimento = dataNasc;
