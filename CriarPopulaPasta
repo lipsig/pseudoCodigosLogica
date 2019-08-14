@@ -1,0 +1,23 @@
+ //Pseudocodigo para criar novas pastas e popular com arquivos, tendo como base uma pasta raiz
+ // o codigo checa se ja existe pasta com o novo usuario
+
+ se(tamanhoDaPasta == vazia) {
+     criarPastaParaUsuarioNovo();
+
+ }
+
+ se(tamanhoDaPasta > vazia) {
+
+     (percorrePasta) {
+         se(nomePasta == nomeUsuarioNovaPasta) {
+             //ja existe uma pasta 
+             populaAquelaPastaComUsuarioJáExistente();
+         }
+         seNao {
+             //existe a pasta mas não com o nome do novo usuario
+             criarPastaParaUsuarioNovo();
+             populaPastaRecemCriada();
+         }
+     }
+
+ }
